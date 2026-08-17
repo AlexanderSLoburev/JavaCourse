@@ -23,6 +23,8 @@ public class Main {
     } catch (IllegalArgumentException e) {
       System.err.println("Invalid data format: " + e.getMessage());
       return;
+    } catch (Exception e) {
+      System.out.print(e.getMessage());
     }
 
     students.stream()
@@ -42,9 +44,9 @@ public class Main {
   private static Student parseStudentLine(String line) {
     String[] parts = line.split(";");
     if (parts.length < 2) {
-      throw new IllegalArgumentException("Invalid line format (expected at " +
-                                         "least student name and one book): " +
-                                         line);
+      throw new IllegalArgumentException(
+          "Invalid line format (expected at "
+          + "least student name and one book): " + line);
     }
     String name = parts[0].trim();
 
