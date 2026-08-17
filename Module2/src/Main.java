@@ -25,6 +25,7 @@ public class Main {
       return;
     } catch (Exception e) {
       System.out.print(e.getMessage());
+      return;
     }
 
     students.stream()
