@@ -1,0 +1,11 @@
+com\example\shop\payment\ProxyPaymentGatewayTest$RecordingGateway.class
+com\example\shop\validation\OrderRejectedExpecter.class
+com\example\shop\payment\BankAdapterTest.class
+com\example\shop\payment\PaymentStrategyTest$RecordingGateway.class
+com\example\shop\validation\ValidationChainTest.class
+com\example\shop\notification\DecoratorTest.class
+com\example\shop\checkout\CheckoutServiceTest.class
+com\example\shop\payment\ProxyPaymentGatewayTest.class
+com\example\shop\TestData.class
+com\example\shop\model\OrderBuilderTest.class
+com\example\shop\payment\PaymentStrategyTest.class
